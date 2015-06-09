@@ -1,0 +1,36 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:style/Theme.Material.Light.DarkActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="ll_red">
+        <item name="android:background">#EF5350</item>
+        <item name="android:textColor">#ffffff</item> 
+    </style>
+    
+    <style name="ll_green">
+        <item name="android:background">#43A047</item>
+        <item name="android:textColor">#ffffff</item> 
+    </style>
+    
+    <style name="ll_blue">
+        <item name="android:background">#1565C0</item>
+        <item name="android:textColor">#ffffff</item> 
+    </style>
+
+    
+</resources>
